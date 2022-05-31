@@ -5,7 +5,7 @@ import { FaArrowCircleDown } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div id='banner'>
+        <div id='openingBanner'>
             <div class="hero min-h-screen bg-[#B1C0CB]">
                 <div class="hero-content flex-col lg:flex-row-reverse text-white">
                     <img src={bannerImg} alt="" className='md:h-[600px] md:w-1/2 object-cover hidden lg:block' />
