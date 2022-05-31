@@ -1,9 +1,10 @@
 import React from 'react';
+import { IoEarth } from "react-icons/io5";
 
 const Contact = () => {
     return (
 
-        <section class="w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800 mb-20">
+        <section class=" w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800 mb-20">
             <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white">Get in touch</h2>
             <p class="mt-3 text-center text-gray-600 dark:text-gray-400">Contact with me for any query.</p>
 
@@ -13,7 +14,7 @@ const Contact = () => {
                         <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
                     </svg>
 
-                    <span class="mt-2">121 Street, NY</span>
+                    <span class="mt-2">Dhaka, Bangladesh</span>
                 </a>
 
                 <a href="#" class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500">
@@ -21,7 +22,7 @@ const Contact = () => {
                         <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
 
-                    <span class="mt-2">+2499999666600</span>
+                    <span class="mt-2">+880-1939032974</span>
                 </a>
 
                 <a href="#" class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500">
@@ -30,11 +31,17 @@ const Contact = () => {
                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                     </svg>
 
-                    <span class="mt-2">example@example.com</span>
+                    <span class="mt-2">asifaowadud@gmail.com</span>
+                </a>
+
+                <a href="https://asifawadud.com/" target='_blank' class=" md:hidden flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500">
+                    <IoEarth/>
+
+                    <span class="mt-2">asifawadud.com</span>
                 </a>
             </div>
 
-            <div class="mt-6 ">
+            <div class="mt-6">
                 <div class="items-center -mx-2 md:flex">
                     <div class="w-full mx-2">
                         <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">Name</label>

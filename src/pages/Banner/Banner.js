@@ -8,7 +8,7 @@ const Banner = () => {
         <div id='banner'>
             <div class="hero min-h-screen bg-[#B1C0CB]">
                 <div class="hero-content flex-col lg:flex-row-reverse text-white">
-                    <img src={bannerImg} alt="" className='md:h-[800px] md:w-1/2 object-cover hidden lg:block' />
+                    <img src={bannerImg} alt="" className='md:h-[600px] md:w-1/2 object-cover hidden lg:block' />
                     <div>
                         <h1 class="text-5xl font-bold">Hello! I'M <span className='text-black'>ASIF</span> </h1>
                         <h2 className='text-3xl py-6'>I am a <span className='font-bold text-red-500'>Web Developer</span></h2>
