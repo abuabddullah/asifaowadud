@@ -5,14 +5,14 @@ import { Link, NavLink } from 'react-router-dom';
 const NavMenues = () => {
     return (
         <>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/'>About</Link></li>
-            <li><Link to='/'>Skills</Link></li>
-            <li><Link to='/'>Services</Link></li>
-            <li><Link to='/'>portfolio</Link></li>
-            <li><Link to='/'>Blog</Link></li>
-            <li><Link to='/'>Complements</Link></li>
-            <li><Link to='/'>Contact</Link></li>
+            <li><a href='#banner'>Home</a></li>
+            <li><a href='#about'>About</a></li>
+            <li><a href='#skills'>Skills</a></li>
+            <li><a href='#services'>Services</a></li>
+            <li><a href='#projects'>Projects</a></li>
+            <li><a href='#blog'>Blogs</a></li>
+            <li><a href='#complements'>Complements</a></li>
+            <li><a href='#contact'>Contact</a></li>
         </>
     );
 };

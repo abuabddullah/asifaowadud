@@ -12,11 +12,11 @@ const Banner = () => {
                     <div>
                         <h1 class="text-5xl font-bold">Hello! I'M <span className='text-black'>ASIF</span> </h1>
                         <h2 className='text-3xl py-6'>I am a <span className='font-bold text-red-500'>Web Developer</span></h2>
-                        <Link to='/#main'><button class="btn btn-wide btn-outline text-xl rounded-none rounded-bl-3xl rounded-tr-3xl hover:rounded-none transition-all">
+                        <a href='/#banner'><button class="btn btn-wide btn-outline text-xl rounded-none rounded-bl-3xl rounded-tr-3xl hover:rounded-none transition-all">
                             Let's start 
                             <span 
                             className='ml-4'><FaArrowCircleDown/></span>
-                            </button></Link>
+                            </button></a>
                     </div>
                 </div>
             </div>

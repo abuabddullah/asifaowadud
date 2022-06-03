@@ -24,7 +24,7 @@ const MyServices = () => {
                         </span>
                         <div class="stat-value whitespace-normal mt-4">Responsive Development</div>
                         <div class="stat-title whitespace-normal py-4">Responsive web development is most import cause user visit site PC,Mobile or Tab</div>
-                        <div class="stat-desc">Jan 1st - Feb 1st</div>
+                        <div class="stat-desc">Expert</div>
                     </div>
 
                 </div>
@@ -37,7 +37,7 @@ const MyServices = () => {
                         </span>
                         <div class="stat-value whitespace-normal mt-4">Web Design</div>
                         <div class="stat-title whitespace-normal py-4">Web Design is the main part for an website, It's satisfy user experience and attract user.</div>
-                        <div class="stat-desc">Jan 1st - Feb 1st</div>
+                        <div class="stat-desc">Expert</div>
                     </div>
 
                 </div>
@@ -50,7 +50,7 @@ const MyServices = () => {
                         </span>
                         <div class="stat-value whitespace-normal mt-4">Web Development</div>
                         <div class="stat-title whitespace-normal py-4">A MERN Stack web application I provide. every kind of website I can create</div>
-                        <div class="stat-desc">Jan 1st - Feb 1st</div>
+                        <div class="stat-desc">Expert</div>
                     </div>
 
                 </div>

@@ -18,7 +18,7 @@ const Banner = () => {
                     <div class="flex justify-center">
                         <button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-black rounded text-lg">Hire Me</button>
                         <a target='_blank'
-                        href='https://drive.google.com/file/d/13mz9p1VnaC6bJ5bcvtceuyt2HGtJVyqB/view?usp=sharing'
+                        href='https://drive.google.com/u/0/uc?id=13mz9p1VnaC6bJ5bcvtceuyt2HGtJVyqB&export=download'
                         class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Resume</a>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ import pic from '././../../assets/images/banner.jpg'
 
 const Progress = () => {
     return (
-        <section id='progress' class="text-gray-600 body-font">
+        <section id='about' class="text-gray-600 body-font">
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-20">
                     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">About Me</h1>
@@ -62,11 +62,11 @@ const Progress = () => {
 
                     <div className='flex justify-center items-center'>
                         <div className='flex flex-col-reverse lg:ml-12 w-full'>
-                            <progress class="progress w-full mb-4" value="10" max="100"></progress>
+                            <progress class="progress w-full mb-4" value="35" max="100"></progress>
                             <p className='my-2'><strong>Mongo DB</strong></p>
-                            <progress class="progress w-full mb-4" value="40" max="100"></progress>
+                            <progress class="progress w-full mb-4" value="45" max="100"></progress>
                             <p className='my-2'><strong>Express JS</strong></p>
-                            <progress class="progress w-full mb-4" value="70" max="100"></progress>
+                            <progress class="progress w-full mb-4" value="60" max="100"></progress>
                             <p className='my-2'><strong>Node JS</strong></p>
                             <progress class="progress w-full mb-4" value="100" max="100"></progress>
                             <p className='my-2'><strong>React JS</strong></p>

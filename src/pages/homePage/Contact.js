@@ -110,6 +110,12 @@ const Contact = () => {
         )
           .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
+            setToSend({
+              from_name: '',
+              to_name: '',
+              message: '',
+              reply_to: '',
+            });
           })
           .catch((err) => {
             console.log('FAILED...', err);
