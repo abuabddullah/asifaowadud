@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsCodeSlash,BsPhone } from "react-icons/bs";
+import { BsCodeSlash, BsPhone } from "react-icons/bs";
 import { AiOutlineAntDesign } from "react-icons/ai";
 const MyServices = () => {
     return (
@@ -16,11 +16,14 @@ const MyServices = () => {
                     </div>
                 </div>
 
-                <div class="stats grid stats-vertical lg:stats-horizontal shadow mb-8 hover:text-white hover:bg-black transition-all">
+                <div
+                    data-aos="fade-right"
+                    data-aos-duration="400"
+                    class="stats grid stats-vertical lg:stats-horizontal shadow mb-8 hover:text-white hover:bg-black transition-all">
 
                     <div class="stat text-center">
                         <span className='bg-black text-white p-4 rounded-full text-3xl mx-auto'>
-                        <BsPhone/>
+                            <BsPhone />
                         </span>
                         <div class="stat-value whitespace-normal mt-4">Responsive Development</div>
                         <div class="stat-title whitespace-normal py-4">Responsive web development is most import cause user visit site PC,Mobile or Tab</div>
@@ -29,11 +32,14 @@ const MyServices = () => {
 
                 </div>
 
-                <div class="stats grid stats-vertical lg:stats-horizontal shadow mb-8 hover:text-white hover:bg-black transition-all">
+                <div
+                    data-aos="zoom-in"
+                    data-aos-duration="400"
+                    class="stats grid stats-vertical lg:stats-horizontal shadow mb-8 hover:text-white hover:bg-black transition-all">
 
                     <div class="stat text-center">
                         <span className='bg-black text-white p-4 rounded-full text-3xl mx-auto'>
-                        <AiOutlineAntDesign/>
+                            <AiOutlineAntDesign />
                         </span>
                         <div class="stat-value whitespace-normal mt-4">Web Design</div>
                         <div class="stat-title whitespace-normal py-4">Web Design is the main part for an website, It's satisfy user experience and attract user.</div>
@@ -42,11 +48,14 @@ const MyServices = () => {
 
                 </div>
 
-                <div class="stats grid stats-vertical lg:stats-horizontal shadow mb-8 hover:text-white hover:bg-black transition-all">
+                <div
+                    data-aos="fade-left"
+                    data-aos-duration="400"
+                    class="stats grid stats-vertical lg:stats-horizontal shadow mb-8 hover:text-white hover:bg-black transition-all">
 
                     <div class="stat text-center">
                         <span className='bg-black text-white p-4 rounded-full text-3xl mx-auto'>
-                        <BsCodeSlash/>
+                            <BsCodeSlash />
                         </span>
                         <div class="stat-value whitespace-normal mt-4">Web Development</div>
                         <div class="stat-title whitespace-normal py-4">A MERN Stack web application I provide. every kind of website I can create</div>

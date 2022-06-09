@@ -46,8 +46,11 @@ const Blog = () => {
                     <div class="w-full lg:w-1/2 grid grid-cols-1 gap-8 xl:gap-16 md:grid-cols-2">
                         {
                             blogs.map((blog, index) =>
-                                <div class="space-y-3 hover:shadow-md p-4 rounded-lg"
-                                key={index}
+                                <div
+                                    data-aos="zoom-out-up"
+                                    data-aos-duration="1000"
+                                    class="space-y-3 hover:shadow-md p-4 rounded-lg"
+                                    key={index}
                                 >
 
                                     <img src={blog.image} alt="" className='h-24 w-full object-cover' />
@@ -66,7 +69,7 @@ const Blog = () => {
                             )
                         }
 
-                    
+
 
 
                     </div>

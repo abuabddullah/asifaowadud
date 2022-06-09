@@ -94,41 +94,44 @@ import { send } from 'emailjs-com';
 
 const Contact = () => {
     const [toSend, setToSend] = useState({
-      from_name: '',
-      to_name: '',
-      message: '',
-      reply_to: '',
+        from_name: '',
+        to_name: '',
+        message: '',
+        reply_to: '',
     });
-  
+
     const onSubmit = (e) => {
         e.preventDefault();
         send(
-          'service_17j10ei', // service id from : https://dashboard.emailjs.com/admin
-          'template_y01y6o9', // template id from : https://dashboard.emailjs.com/admin/templates/cob3zk6
-          toSend,
-          '4rjfaUlZPnGNnZ3Dw' // public key from : https://dashboard.emailjs.com/admin/account
+            'service_17j10ei', // service id from : https://dashboard.emailjs.com/admin
+            'template_y01y6o9', // template id from : https://dashboard.emailjs.com/admin/templates/cob3zk6
+            toSend,
+            '4rjfaUlZPnGNnZ3Dw' // public key from : https://dashboard.emailjs.com/admin/account
         )
-          .then((response) => {
-            console.log('SUCCESS!', response.status, response.text);
-            setToSend({
-              from_name: '',
-              to_name: '',
-              message: '',
-              reply_to: '',
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+                setToSend({
+                    from_name: '',
+                    to_name: '',
+                    message: '',
+                    reply_to: '',
+                });
+            })
+            .catch((err) => {
+                console.log('FAILED...', err);
             });
-          })
-          .catch((err) => {
-            console.log('FAILED...', err);
-          });
-      };
-  
-    const handleChange = (e) => {
-      setToSend({ ...toSend, [e.target.name]: e.target.value });
     };
-  
+
+    const handleChange = (e) => {
+        setToSend({ ...toSend, [e.target.name]: e.target.value });
+    };
+
     return (
 
-        <section id='contact' class=" w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800 mb-20">
+        <section
+            data-aos="zoom-in"
+            data-aos-duration='1500'
+            id='contact' class=" w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800 mb-20">
             <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white">Get in touch</h2>
             <p class="mt-3 text-center text-gray-600 dark:text-gray-400">Contact with me for any query.</p>
 
@@ -166,8 +169,8 @@ const Contact = () => {
             </div>
 
             <form
-            onSubmit={onSubmit}
-            class="mt-6">
+                onSubmit={onSubmit}
+                class="mt-6">
                 <div class="items-center -mx-2 md:flex">
                     <div class="w-full mx-2">
                         <label htmlFor='name' class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">Name</label>
@@ -207,7 +210,7 @@ const Contact = () => {
 
                 <div class="flex justify-center mt-6">
                     <button class="px-4 py-2 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600"
-                    type='submit'
+                        type='submit'
                     >Send Message</button>
                 </div>
             </form>

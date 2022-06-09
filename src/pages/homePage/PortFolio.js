@@ -92,7 +92,10 @@ const PortFolio = () => {
 
                 <div class="containerProject grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                     {
-                        project.map((item, index) => <div class="card1" >
+                        project.map((item, index) => <div 
+                        data-aos="zoom-out-down"
+                        data-aos-duration="1000"
+                        class="card1" >
                             <img src={item.image} alt="12" border="0" className='h-20 w-full object-cover mb-4 rounded-md' />
                             <h3>{item.title}</h3>
                             <p class="small">

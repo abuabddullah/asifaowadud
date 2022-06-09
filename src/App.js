@@ -4,7 +4,6 @@ import Banner from './pages/Banner/Banner';
 import Home from './pages/homePage/Home';
 import Footer from './pages/shared/Footer';
 import NavBarMenu from './pages/shared/NavBarMenu';
-import { send } from 'emailjs-com';
 
 function App() {
   return (

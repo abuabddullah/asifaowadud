@@ -33,7 +33,10 @@ const Complements = () => {
                 <div class="flex flex-wrap -m-4">
                     {
                         complements.map((complement, index) =>
-                            <div class="p-4 md:w-1/2 w-full"
+                            <div
+                            data-aos="zoom-out"
+                            data-aos-duration='1000'
+                            class="p-4 md:w-1/2 w-full"
                             key={index}
                             >
                                 <div class="h-full bg-gray-100 hover:bg-white border-2 hover:border-black transition-all p-8 rounded">

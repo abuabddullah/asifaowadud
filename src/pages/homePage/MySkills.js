@@ -6,17 +6,20 @@ const MySkills = () => {
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-20">
                     <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">My Skills</h1>
-                    
 
-                <div class="mt-2">
-                    <span class="inline-block w-40 h-1 rounded-full bg-blue-500"></span>
-                    <span class="inline-block w-3 h-1 ml-1 rounded-full bg-blue-500"></span>
-                    <span class="inline-block w-1 h-1 ml-1 rounded-full bg-blue-500"></span>
-                </div>
+
+                    <div class="mt-2">
+                        <span class="inline-block w-40 h-1 rounded-full bg-blue-500"></span>
+                        <span class="inline-block w-3 h-1 ml-1 rounded-full bg-blue-500"></span>
+                        <span class="inline-block w-1 h-1 ml-1 rounded-full bg-blue-500"></span>
+                    </div>
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500 mt-8">Llearn something from everything but learn everything of something.</p>
                 </div>
-                <div class="flex flex-wrap -m-4">
-                    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                <div class="flex flex-wrap -m-4 overflow-hidden">
+                    <div
+                        data-aos="fade-down"
+                        data-aos-delay="50"
+                        class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-gray-900 flex flex-col justify-between relative overflow-hidden hover:border-gray-300 hover:-translate-y-4 transition-all"><span class="bg-gray-900 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">A1</span>
                             <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Expert</h1>
                             <div>
@@ -74,7 +77,10 @@ const MySkills = () => {
                         </div>
                     </div>
 
-                    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div
+                        data-aos="fade-down"
+                        data-aos-delay="500"
+                        class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col justify-between relative overflow-hidden hover:border-gray-900 hover:-translate-y-4 transition-all"><span class="bg-gray-900 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">A2</span>
                             <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Comfort</h1>
                             <div>
@@ -115,7 +121,10 @@ const MySkills = () => {
                         </div>
                     </div>
 
-                    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div
+                        data-aos="fade-down"
+                        data-aos-delay="750"
+                        class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col justify-between relative overflow-hidden hover:border-gray-900 hover:-translate-y-4 transition-all"><span class="bg-gray-900 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">A3</span>
                             <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Familiar</h1>
                             <div>
@@ -149,7 +158,7 @@ const MySkills = () => {
                                             <path d="M20 6L9 17l-5-5"></path>
                                         </svg>
                                     </span>socket.io</p>
-                                
+
                             </div>
 
 
@@ -157,7 +166,10 @@ const MySkills = () => {
                         </div>
                     </div>
 
-                    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div
+                        data-aos="fade-down"
+                        data-aos-delay="300"
+                        class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col justify-between relative overflow-hidden hover:border-gray-900 hover:-translate-y-4 transition-all"><span class="bg-gray-900 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">A4</span>
                             <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Tools</h1>
                             <div>
@@ -221,7 +233,7 @@ const MySkills = () => {
                                             <path d="M20 6L9 17l-5-5"></path>
                                         </svg>
                                     </span>Node Mailer</p>
-                                
+
                             </div>
 
 
