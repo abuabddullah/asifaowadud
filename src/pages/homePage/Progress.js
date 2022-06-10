@@ -1,3 +1,8 @@
+
+
+
+
+
 import React from 'react';
 import pic from '././../../assets/images/banner.jpg'
 
@@ -19,7 +24,7 @@ const Progress = () => {
                 </div>
 
 
-                <div className="grid grid-cols-1 lg:grid-cols-2">
+                <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
                     <div className='mb-12 flex justify-center items-center'>
 
                         <div>
@@ -48,7 +53,7 @@ const Progress = () => {
                                 <div
                                     data-aos="fade-up"
                                     data-aos-delay="800"
-                                    >
+                                >
                                     <h2 className='text-xl font-bold'>Email</h2>
                                     <p>
                                         asifaowadud@gmail.com
@@ -59,7 +64,7 @@ const Progress = () => {
                                 <div
                                     data-aos="fade-up"
                                     data-aos-delay="1050"
-                                    >
+                                >
                                     <h2 className='text-xl font-bold'>Phone</h2>
                                     <p>
                                         +880-1939032974
@@ -68,7 +73,7 @@ const Progress = () => {
                                 <div
                                     data-aos="fade-up"
                                     data-aos-delay="1250"
-                                    >
+                                >
                                     <h2 className='text-xl font-bold'>Website</h2>
                                     <p>
                                         www.asifawadud.com
@@ -78,44 +83,43 @@ const Progress = () => {
                         </div>
                     </div>
 
-                    <div className='flex justify-center items-center overflow-hidden'>
-                        <div className='flex flex-col-reverse lg:ml-12 w-full'>
-                            <progress
-                                data-aos="fade-left"
-                                data-aos-delay="50"
-                                class="progress w-full mb-4" value="35" max="100"></progress>
-                            <p
-                                data-aos="fade-left"
-                                data-aos-delay="50"
-                                className='my-2'><strong>Mongo DB</strong></p>
+                    <div className='flex justify-center items-center'>
+                        <div className='flex flex-col lg:ml-12 w-full'>
 
-
-                            <progress
+                            <div
                                 data-aos="fade-left"
-                                data-aos-delay="350"
-                                class="progress w-full mb-4" value="45" max="100"></progress>
-                            <p
-                                data-aos="fade-left"
-                                data-aos-delay="350"
-                                className='my-2'><strong>Express JS</strong></p>
+                                data-aos-delay="950"
+                            >
+                                <p className='my-2'><strong>React JS</strong></p>
+                                <progress class="progress w-full mb-4" value="100" max="100"></progress>
+                            </div>
 
-
-                            <progress
+                            <div
                                 data-aos="fade-left"
                                 data-aos-delay="650"
-                                class="progress w-full mb-4" value="60" max="100"></progress>
-                            <p
-                                data-aos="fade-left"
-                                data-aos-delay="650"
-                                className='my-2'><strong>Node JS</strong></p>
+                            >
+                                <p
+                                    className='my-2'><strong>Node JS</strong></p>
+                                <progress
+                                    class="progress w-full mb-4" value="60" max="100"></progress>
+                            </div>
 
-
-                            <progress
+                            <div
                                 data-aos="fade-left"
-                                data-aos-delay="950" class="progress w-full mb-4" value="100" max="100"></progress>
-                            <p
+                                data-aos-delay="350"
+                            >
+                                <p
+                                    className='my-2'><strong>Express JS</strong></p>
+                                <progress class="progress w-full mb-4" value="45" max="100"></progress>
+                            </div>
+                            <div
                                 data-aos="fade-left"
-                                data-aos-delay="950" className='my-2'><strong>React JS</strong></p>
+                                data-aos-delay="50"
+                            >
+                                <p
+                                    className='my-2'><strong>Mongo DB</strong></p>
+                                <progress class="progress w-full mb-4" value="35" max="100"></progress>
+                            </div>
                         </div>
                     </div>
 

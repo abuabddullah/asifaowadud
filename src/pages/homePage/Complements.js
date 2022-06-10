@@ -1,3 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react';
 
 const complements = [
@@ -30,7 +47,7 @@ const Complements = () => {
                         <span class="inline-block w-1 h-1 ml-1 rounded-full bg-blue-500"></span>
                     </div>
                 </div>
-                <div class="flex flex-wrap -m-4">
+                <div class="flex flex-wrap -m-4  overflow-hidden">
                     {
                         complements.map((complement, index) =>
                             <div

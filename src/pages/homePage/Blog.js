@@ -1,3 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react';
 import { BiLinkExternal } from "react-icons/bi";
 import blog1 from './../../assets/images/blog1.png'
@@ -33,7 +51,7 @@ const Blog = () => {
     return (
 
         <section id='blog' class="bg-white dark:bg-gray-900">
-            <div class="container px-6 py-10 mx-auto">
+            <div class="container px-6 py-10 mx-auto overflow-hidden">
                 <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">My Blogs</h1>
 
                 <div class="mt-2">
@@ -43,7 +61,7 @@ const Blog = () => {
                 </div>
 
                 <div class="mt-8 xl:mt-12 lg:flex lg:items-center">
-                    <div class="w-full lg:w-1/2 grid grid-cols-1 gap-8 xl:gap-16 md:grid-cols-2">
+                    <div class="w-full lg:w-1/2 grid grid-cols-1 gap-8 xl:gap-16 md:grid-cols-2 overflow-hidden">
                         {
                             blogs.map((blog, index) =>
                                 <div

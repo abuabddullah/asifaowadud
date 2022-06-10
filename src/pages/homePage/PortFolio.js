@@ -1,3 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react';
 import { BiLinkExternal } from "react-icons/bi";
 
@@ -76,7 +89,7 @@ const project = [
 
 const PortFolio = () => {
     return (
-        <section id='projects' class="text-gray-600 body-font overflow-hidden">
+        <section id='projects' class="text-gray-600 body-font ">
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-20">
                     <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">My Projects</h1>
@@ -90,7 +103,7 @@ const PortFolio = () => {
                     </div>
                 </div>
 
-                <div class="containerProject grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="containerProject grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 overflow-hidden">
                     {
                         project.map((item, index) => <div 
                         data-aos="zoom-out-down"
