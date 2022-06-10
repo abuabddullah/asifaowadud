@@ -6,8 +6,8 @@ import { HashLink } from 'react-router-hash-link';
 const NavBarMenu = () => {
     return (
         <section 
-        data-aos="fade-down"
-        data-aos-duration="1000"
+        // data-aos="fade-down"
+        // data-aos-duration="1000"
         className='sticky top-0  bg-[#b1c0cbee] lg:text-white z-50'>
             <div className="container mx-auto">
 
