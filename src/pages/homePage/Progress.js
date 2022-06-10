@@ -9,17 +9,17 @@ import pic from '././../../assets/images/banner.jpg'
 
 const Progress = () => {
     return (
-        <section id='about' class="text-gray-600 body-font">
-            <div class="container px-5 py-24 mx-auto">
-                <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">About Me</h1>
+        <section id='about' className="text-gray-600 body-font">
+            <div className="container px-5 py-24 mx-auto">
+                <div className="flex flex-col text-center w-full mb-20">
+                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">About Me</h1>
 
 
 
-                    <div class="mt-2">
-                        <span class="inline-block w-40 h-1 rounded-full bg-blue-500"></span>
-                        <span class="inline-block w-3 h-1 ml-1 rounded-full bg-blue-500"></span>
-                        <span class="inline-block w-1 h-1 ml-1 rounded-full bg-blue-500"></span>
+                    <div className="mt-2">
+                        <span className="inline-block w-40 h-1 rounded-full bg-blue-500"></span>
+                        <span className="inline-block w-3 h-1 ml-1 rounded-full bg-blue-500"></span>
+                        <span className="inline-block w-1 h-1 ml-1 rounded-full bg-blue-500"></span>
                     </div>
                 </div>
 
@@ -36,7 +36,13 @@ const Progress = () => {
                                 data-aos="fade-up"
                                 data-aos-delay="300"
                                 className='py-4'>
-                                This Asif A Owadud, You can call me Asif, I,m a full-stack developer. Specially MERN Developer. What you know about me, I put the some answer below, You may like it.
+                                This Asif A Owadud, You can call me Asif, I,m a full-stack developer. Specially MERN Developer.
+                                <br />
+                                <br />
+                                I have completed my graduation on 2019 in Textile Engineering being topper in my department. I am passionate about Web Development . I am a hard working person doing 8 hrs job and studing for web development regularly for which i need to work 14hrs everyday.Thats all
+                                <br />
+                                <br />
+                                 What you know about me, I put the some answer below, You may like it.
                             </p>
 
 
@@ -91,7 +97,7 @@ const Progress = () => {
                                 data-aos-delay="950"
                             >
                                 <p className='my-2'><strong>React JS</strong></p>
-                                <progress class="progress w-full mb-4" value="100" max="100"></progress>
+                                <progress className="progress w-full mb-4" value="100" max="100"></progress>
                             </div>
 
                             <div
@@ -101,7 +107,7 @@ const Progress = () => {
                                 <p
                                     className='my-2'><strong>Node JS</strong></p>
                                 <progress
-                                    class="progress w-full mb-4" value="60" max="100"></progress>
+                                    className="progress w-full mb-4" value="60" max="100"></progress>
                             </div>
 
                             <div
@@ -110,7 +116,7 @@ const Progress = () => {
                             >
                                 <p
                                     className='my-2'><strong>Express JS</strong></p>
-                                <progress class="progress w-full mb-4" value="45" max="100"></progress>
+                                <progress className="progress w-full mb-4" value="45" max="100"></progress>
                             </div>
                             <div
                                 data-aos="fade-left"
@@ -118,7 +124,7 @@ const Progress = () => {
                             >
                                 <p
                                     className='my-2'><strong>Mongo DB</strong></p>
-                                <progress class="progress w-full mb-4" value="35" max="100"></progress>
+                                <progress className="progress w-full mb-4" value="35" max="100"></progress>
                             </div>
                         </div>
                     </div>

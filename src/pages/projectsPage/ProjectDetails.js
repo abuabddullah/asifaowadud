@@ -1,21 +1,8 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React from 'react';
-import { BiLinkExternal, BiUnlink } from "react-icons/bi";
-import { Link } from 'react-router-dom';
+import { useParams } from "react-router-dom";
 
-// make sure the variale project of Portfolio.js and ProjectDetails.js are same
+
+
 const project = [
     {
         _id: "project1",
@@ -178,52 +165,64 @@ const project = [
     },
 ]
 
-const PortFolio = () => {
+
+
+
+const ProjectDetails = () => {
+    let { _id } = useParams();
+    let theProject = project.find(item => item._id === _id);
     return (
-        <section id='projects' className="text-gray-600 body-font ">
-            <div className="container px-5 py-24 mx-auto">
-                <div className="flex flex-col text-center w-full mb-20">
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">My Projects</h1>
+        <div>
+            id : {_id}
 
 
 
-                    <div className="mt-2">
-                        <span className="inline-block w-40 h-1 rounded-full bg-blue-500"></span>
-                        <span className="inline-block w-3 h-1 ml-1 rounded-full bg-blue-500"></span>
-                        <span className="inline-block w-1 h-1 ml-1 rounded-full bg-blue-500"></span>
+            <div className="hero  my-12">
+                <div className="hero-content flex-col lg:flex-row">
+                    <img src={theProject?.homePage} className="max-w-sm rounded-lg shadow-2xl" alt='' />
+                    <div>
+                        <h1 className="text-5xl font-bold">Info (A)!</h1>
+                        <p className="py-6">{theProject?.homePageDetail1}</p>
                     </div>
                 </div>
+            </div>
 
-                <div className="containerProject grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 overflow-hidden">
-                    {
-                        project.map((item, index) => <div
-                            data-aos="zoom-out-down"
-                            data-aos-duration="1000"
-                            className="card1" >
-                            <img src={item.homePage} alt="12" border="0" className='h-20 w-full object-cover mb-4 rounded-md' />
-                            <h3>{item.title}</h3>
-                            <p className="small">
-                                <a href={item.link} target="_blank" rel="noopener noreferrer">Live </a>
-
-                                |
-
-                                <a href={item.gitHub} target="_blank" rel="noopener noreferrer"> Git </a>
-
-                                <BiLinkExternal />
-                            </p>
-                            <div className="go-corner cursor-pointer" href="#">
-                                <div title='see details' className="go-arrow">
-                                    <Link to={`/details/${item?._id}`}>→</Link>
-                                </div>
-                            </div>
-                        </div>
-                        )
-                    }
-
+            <div className="hero  my-12">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <img src={theProject?.secondPage} className="max-w-sm rounded-lg shadow-2xl" alt='' />
+                    <div>
+                        <h1 className="text-5xl font-bold">Info (B)!</h1>
+                        <p className="py-6">{theProject?.secondPageDetail2}</p>
+                    </div>
                 </div>
             </div>
-        </section>
+
+            <div className="hero  my-12">
+                <div className="hero-content flex-col lg:flex-row">
+                    <img src={theProject?.thirdPage} className="max-w-sm rounded-lg shadow-2xl" alt='' />
+                    <div>
+                        <h1 className="text-5xl font-bold">Info (C)!</h1>
+                        <p className="py-6">{theProject?.thirdPageDetail3}</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
     );
 };
 
-export default PortFolio;
+export default ProjectDetails;
