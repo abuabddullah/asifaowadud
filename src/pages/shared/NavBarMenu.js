@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavMenues from './NavMenues';
+import { HashLink } from 'react-router-hash-link';
 
 const NavBarMenu = () => {
     return (
@@ -17,7 +18,7 @@ const NavBarMenu = () => {
                                 <NavMenues />
                             </ul>
                         </div>
-                        <Link to='/' className="btn btn-ghost normal-case text-xl font-bold">ASIF</Link>
+                        <HashLink smooth to='#openingBanner' className="btn btn-ghost normal-case text-xl font-bold">ASIF</HashLink>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal p-0">

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import myImg from './../../assets/images/RC-1280.jpg'
-
+import { HashLink } from 'react-router-hash-link';
 
 const Banner = () => {
     return (
@@ -24,11 +24,12 @@ const Banner = () => {
                         So I can help to make full stack web sites...</p>
                     <div className="flex justify-center overflow-hidden"
                     >
-                        <a
+                        <HashLink
+                            smooth
                             data-aos="fade-down"
                             data-aos-delay="700"
-                            href='#contact'
-                            className="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-black rounded text-lg">Hire Me</a>
+                            to='/home#contact'
+                            className="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-black rounded text-lg">Hire Me</HashLink>
                         <a
                             data-aos="fade-down"
                             data-aos-delay="700"

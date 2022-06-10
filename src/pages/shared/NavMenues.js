@@ -1,18 +1,19 @@
 import React from 'react';
 import { IoClose } from "react-icons/io5";
 import { Link, NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const NavMenues = () => {
     return (
         <>
-            <li><Link to='/home'>Home</Link></li>
-            <li><Link to='about'>About</Link></li>
-            <li><Link to='skills'>Skills</Link></li>
-            <li><Link to='services'>Services</Link></li>
-            <li><Link to='projects'>Projects</Link></li>
-            <li><Link to='blog'>Blogs</Link></li>
-            <li><Link to='complements'>Complements</Link></li>
-            <li><Link to='contact'>Contact</Link></li>
+            <li><HashLink smooth to='/home#banner'>Home</HashLink></li>
+            <li><HashLink smooth to='/home#about'>About</HashLink></li>
+            <li><HashLink smooth to='/home#skills'>Skills</HashLink></li>
+            <li><HashLink smooth to='/home#services'>Services</HashLink></li>
+            <li><HashLink smooth to='/home#projects'>Projects</HashLink></li>
+            <li><HashLink smooth to='/home#blog'>Blogs</HashLink></li>
+            <li><HashLink smooth to='/home#complements'>Complements</HashLink></li>
+            <li><HashLink smooth to='/home#contact'>Contact</HashLink></li>
         </>
     );
 };
