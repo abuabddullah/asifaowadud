@@ -1,6 +1,8 @@
 import { HashLink } from "react-router-hash-link";
 import myImg from './../../assets/images/RC-1280.png';
 
+
+
 const Banner = () => {
   return (
     <section id="banner" className="text-gray-600 body-font">
@@ -49,7 +51,7 @@ const Banner = () => {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded rounded-full"
+            className="object-cover object-center rounded-full bg-red-400"
             alt="hero"
             src={myImg}
           />

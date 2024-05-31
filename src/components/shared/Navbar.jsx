@@ -38,7 +38,7 @@ const Navbar = () => {
             </div>
             <HashLink
               smooth
-              to="#openingBanner"
+              to="home#openingBanner"
               className="btn btn-ghost normal-case text-xl font-bold"
             >
               ASIF

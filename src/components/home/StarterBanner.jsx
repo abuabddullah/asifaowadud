@@ -1,9 +1,12 @@
-
 import { FaArrowCircleDown } from "react-icons/fa";
+import { useLocation } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { Typewriter } from "react-simple-typewriter";
 import bannerImg from "./../../assets/images/banner.gif";
 
 const StarterBanner = () => {
+  const location = useLocation();
+  if (location.pathname.includes("allBlogs")) return null;
   return (
     <div id="openingBanner">
       <div className="hero min-h-screen bg-[#B1C0CB]">
@@ -32,13 +35,14 @@ const StarterBanner = () => {
                 _
               </span>
             </h2>
-
-            <button className="btn btn-wide btn-outline text-xl rounded-none rounded-bl-3xl rounded-tr-3xl hover:rounded-none transition-all">
-              Let's start
-              <span className="ml-4">
-                <FaArrowCircleDown />
-              </span>
-            </button>
+            <HashLink smooth to="#banner">
+              <button className="btn btn-wide btn-outline text-xl rounded-none rounded-bl-3xl rounded-tr-3xl hover:rounded-none transition-all">
+                Let's start
+                <span className="ml-4">
+                  <FaArrowCircleDown />
+                </span>
+              </button>
+            </HashLink>
           </div>
         </div>
       </div>

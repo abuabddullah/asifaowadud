@@ -1,4 +1,3 @@
-
 import Banner from "../components/home/Banner";
 import Complements from "../components/home/Complements";
 import Contact from "../components/home/Contact";
