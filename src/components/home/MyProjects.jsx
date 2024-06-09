@@ -1,4 +1,3 @@
-
 import { BiLinkExternal } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
@@ -47,7 +46,7 @@ const projects = [
       "https://i.ibb.co/88f8MZB/screencapture-thirstydrinks-11-web-app-all-Items-2022-06-10-22-57-02.png",
     thirdPageDetail3: "this is the 3rd Page",
   },
-  {
+  /* {
     _id: "project4",
     title: "EmaJhon Shopping",
     link: "https://emajhon-shopping-ecommerce.netlify.app/",
@@ -61,7 +60,7 @@ const projects = [
     thirdPage:
       "https://i.ibb.co/G0VVjWQ/screencapture-emajhon-shopping-ecommerce-netlify-app-login-2022-06-10-22-59-41.png",
     thirdPageDetail3: "this is the 3rd Page",
-  },
+  }, */
   {
     _id: "project5",
     title: "Service Provider Asif",
@@ -197,14 +196,13 @@ const MyProjects = () => {
       <section id="projects" className="text-gray-600 body-font ">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
               My Projects
             </h1>
-
-            <div className="mt-2">
-              <span className="inline-block w-40 h-1 rounded-full bg-blue-500"></span>
-              <span className="inline-block w-3 h-1 ml-1 rounded-full bg-blue-500"></span>
-              <span className="inline-block w-1 h-1 ml-1 rounded-full bg-blue-500"></span>
+            <div className="">
+              <span className="inline-block w-40 h-1 rounded-full bg-[#361408]"></span>
+              <span className="inline-block w-3 h-1 ml-1 rounded-full bg-[#361408]"></span>
+              <span className="inline-block w-1 h-1 ml-1 rounded-full bg-[#361408]"></span>
             </div>
           </div>
 
@@ -212,35 +210,53 @@ const MyProjects = () => {
             {projects.map((item, index) => (
               <div
                 key={index}
-                data-aos="zoom-out-down"
-                data-aos-duration="1000"
-                className="card1"
+                className="flex justify-center items-center my-5 mx-2"
               >
-                <img
-                  src={item.homePage}
-                  alt="12"
-                  border="0"
-                  className="h-20 w-full object-cover mb-4 rounded-md"
-                />
-                <h3>{item.title}</h3>
-                <p className="small">
-                  <a href={item.link} target="_blank" rel="noopener noreferrer">
-                    Live{" "}
-                  </a>
-                  |
-                  <a
-                    href={item.gitHub}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    Git{" "}
-                  </a>
-                  <BiLinkExternal />
-                </p>
-                <div className="go-corner cursor-pointer" href="#">
-                  <div title="see details" className="go-arrow">
-                    <Link to={`/details/${item?._id}`}>→</Link>
+                <div
+                  className="card w-80 bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:shadow-2xl"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                >
+                  <div className="relative">
+                    <img
+                      src={item.homePage}
+                      alt="Project Thumbnail"
+                      className="w-full h-48 object-cover transform transition duration-500 hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 hover:opacity-90 transition duration-500 flex justify-center items-center">
+                      <div className="text-center">
+                        <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-white mx-2 px-4 py-2 bg-[#411707] hover:bg-[#1F0C06] rounded-full"
+                        >
+                          Live
+                        </a>
+                        <a
+                          href={item.gitHub}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-white mx-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-full"
+                        >
+                          GitHub
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-6 text-center">
+                    <h3 className="text-2xl font-bold text-gray-800 mb-2">
+                      {item.title}
+                    </h3>
+                    <p className="text-gray-600 mb-4">{item.description}</p>
+                    <div className="mt-4">
+                      <Link
+                        to={`/projectDetails/${item._id}`}
+                        className="text-blue-500 hover:text-blue-700 text-3xl transform transition duration-500 hover:scale-125"
+                      >
+                        →
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -3,6 +3,7 @@ import ErrorPage from "../components/shared/ErrorPage";
 import MainLayout from "../layouts/MainLayout";
 import AllBlogs from "../pages/AllBlogs";
 import Home from "../pages/Home";
+import ProjectDetails from "../pages/ProjectDetails";
 
 export const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ export const router = createBrowserRouter([
       {
         path: "/home",
         element: <Home />,
+      },
+      {
+        path: `/projectDetails/:id`,
+        element: <ProjectDetails />,
       },
       {
         path: "/allBlogs",

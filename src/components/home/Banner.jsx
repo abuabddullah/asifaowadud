@@ -1,7 +1,5 @@
 import { HashLink } from "react-router-hash-link";
-import myImg from './../../assets/images/social proPic.png';
-
-
+import myImg from "./../../assets/images/social proPic.png";
 
 const Banner = () => {
   return (
@@ -15,27 +13,37 @@ const Banner = () => {
           >
             Welcome to my
             <br className="hidden lg:inline-block" />
-            <span className="text-red-500"> Portfolio</span>
+            <span className="text-[#DD5703]"> Portfolio</span>
           </h1>
-          <p
+          <div
             data-aos="fade-right"
             data-aos-delay="200"
             className="mb-8 leading-relaxed"
           >
-            I am a hard working passionate developer and veritably flexible and
-            adaptive to learning new stuff. I like to take challenge. I am
-            expert in React js, vanilla javascript, HTML 5, CSS 3, Bootstrap 5,
-            Tailwind. And comfotable with Node, MongoDB.
-            {/* I'm sure I'll be suitable to contribute entity equal to the growth of the company. My last project in Operations has lessoned me how to be a team player, and work in concurrency.  */}
-            So I can help to make full stack web sites...
-          </p>
+            <p>
+              I am a full-stack web developer and lifelong learner specializing
+              in the MERN stack (MongoDB, Express, React, Node), and I am
+              proficient in Git. My passion lies in creating visually appealing
+              and highly functional websites. Through rigorous self-learning, I
+              completed a comprehensive Web Development course and earned the
+              prestigious "Black Belt" rank.
+            </p>
+
+            <p>
+              I build websites like service providers, E-commerce, Portfolio,
+              and Stock tracking. I regularly Learn web development in deeper. I
+              am passionate about full-stack web development. I work hard and am
+              very much focused on my interest field.
+            </p>
+            <p>So I can help to make full stack web sites...</p>
+          </div>
           <div className="flex justify-center overflow-hidden">
             <HashLink
               smooth
               data-aos="fade-down"
               data-aos-delay="700"
               to="/home#contact"
-              className="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-black rounded text-lg"
+              className="inline-flex text-white bg-[#361408] border-0 py-2 px-6 focus:outline-none black rounded text-lg"
             >
               Hire Me
             </HashLink>

@@ -1,13 +1,12 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
 import LoadingSpinner from "../components/shared/LoadingSpinner";
 
-const AllBlogs = () => {
+const ProjectDetails = () => {
   return (
-    <div className="grid grid-cols-1">
+    <div>
       <LoadingSpinner />
     </div>
   );
 };
 
-export default AllBlogs;
+export default ProjectDetails;

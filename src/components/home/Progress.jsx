@@ -1,22 +1,19 @@
-
-
 const Progress = () => {
   return (
     <section id="about" className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+        <div className="flex flex-col text-center w-full mb-5">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
             About Me
           </h1>
-
-          <div className="mt-2">
-            <span className="inline-block w-40 h-1 rounded-full bg-blue-500"></span>
-            <span className="inline-block w-3 h-1 ml-1 rounded-full bg-blue-500"></span>
-            <span className="inline-block w-1 h-1 ml-1 rounded-full bg-blue-500"></span>
+          <div className="">
+            <span className="inline-block w-40 h-1 rounded-full bg-[#361408]"></span>
+            <span className="inline-block w-3 h-1 ml-1 rounded-full bg-[#361408]"></span>
+            <span className="inline-block w-1 h-1 ml-1 rounded-full bg-[#361408]"></span>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-start overflow-hidden">
           <div className="mb-12 flex justify-center items-center">
             <div>
               <h2 data-aos="fade-up" data-aos-delay="50" className="text-3xl">
@@ -27,15 +24,17 @@ const Progress = () => {
                 developer. Specially MERN Developer.
                 <br />
                 <br />
-                I have completed my graduation on 2019 in Textile Engineering
-                being topper in my department. I am passionate about Web
-                Development . I am a hard working person doing 8 hrs job and
-                studing for web development regularly for which i need to work
-                14hrs everyday.Thats all
+                Before transitioning to web development, I earned a B.Sc in
+                Textile Engineering and worked as a Lab Incharge in the textile
+                industry. This background has equipped me with a unique
+                perspective on problem-solving and innovation. In textiles, I
+                honed analytical skills, attention to detail, and a strong work
+                ethic—qualities I now bring to web development.
                 <br />
                 <br />
-                What you know about me, I put the some answer below, You may
-                like it.
+                I am passionate about Web Development . I am a hard working
+                person doing 8 hrs job and studing for web development regularly
+                for which i need to work 14hrs everyday.Thats all ....
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">

@@ -35,14 +35,13 @@ const MyBlog = () => {
   return (
     <section id="blog" className="bg-white dark:bg-gray-900">
       <div className="container px-6 py-10 mx-auto overflow-hidden">
-        <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
           My Blogs
         </h1>
-
-        <div className="mt-2">
-          <span className="inline-block w-40 h-1 rounded-full bg-blue-500"></span>
-          <span className="inline-block w-3 h-1 ml-1 rounded-full bg-blue-500"></span>
-          <span className="inline-block w-1 h-1 ml-1 rounded-full bg-blue-500"></span>
+        <div className="">
+          <span className="inline-block w-40 h-1 rounded-full bg-[#361408]"></span>
+          <span className="inline-block w-3 h-1 ml-1 rounded-full bg-[#361408]"></span>
+          <span className="inline-block w-1 h-1 ml-1 rounded-full bg-[#361408]"></span>
         </div>
 
         <div className="mt-8 xl:mt-12 lg:flex lg:items-center">
