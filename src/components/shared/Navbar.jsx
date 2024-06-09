@@ -1,7 +1,7 @@
+import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import NavMenues from "./NavMenues";
-import { Link } from "react-router-dom";
-import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
