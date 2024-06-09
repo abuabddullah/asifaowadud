@@ -28,18 +28,18 @@ const StarterBanner = () => {
             <h2 className="text-2xl py-5">
               I am a <br className="block sm:hidden " />
               <span
-                className="border rounded-lg px-3 bg-white text-black ms-2 font-bold" /* style={{ color: "black", fontWeight: "bold" }} */
+                className="border rounded-lg px-3 bg-white text-gray-700 ms-2 font-bold" /* style={{ color: "black", fontWeight: "bold" }} */
               >
                 <Typewriter
                   words={[
+                    " Full-Stack Developer",
                     " Frontend Developer",
                     " React Developer",
                     " JavaScript Developer",
-                    " FullStack Developer",
                   ]}
                   loop={false}
                 />
-                _
+                ...
               </span>
             </h2>
           </div>

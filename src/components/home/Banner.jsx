@@ -1,5 +1,5 @@
 import { HashLink } from "react-router-hash-link";
-import myImg from './../../assets/images/RC-1280.png';
+import myImg from './../../assets/images/social proPic.png';
 
 
 
