@@ -6,8 +6,8 @@ const projects = [
   {
     _id: "project1",
     title: "Loyal Auto Parts",
-    link: "https://loyalcars12.web.app/",
-    gitHub: "https://github.com/abuabddullah/loyalAutoParts-client",
+    link: "https://loyalautoparts.netlify.app/",
+    gitHub: "https://github.com/abuabddullah/loyalAutoParts-client.git",
     homePage: "https://i.ibb.co/wymmDFp/12.png",
     homePageDetail1: "this is the Home Page",
     secondPage:
@@ -17,6 +17,7 @@ const projects = [
       "https://i.ibb.co/yScFCBC/screencapture-loyalcars12-web-app-all-Parts-2022-06-10-22-47-51.png",
     thirdPageDetail3: "this is the 3rd Page",
   },
+  /* 
   {
     _id: "project2",
     title: "Doctors Portal",
@@ -46,7 +47,7 @@ const projects = [
       "https://i.ibb.co/88f8MZB/screencapture-thirstydrinks-11-web-app-all-Items-2022-06-10-22-57-02.png",
     thirdPageDetail3: "this is the 3rd Page",
   },
-  /* {
+  {
     _id: "project4",
     title: "EmaJhon Shopping",
     link: "https://emajhon-shopping-ecommerce.netlify.app/",

@@ -9,7 +9,7 @@ const StarterBanner = () => {
   if (location.pathname.includes("allBlogs") || location.pathname.includes("projectDetails")) return null;
   return (
     <>
-      <div id="openingBanner">
+      <div id="openingBanner" className="min-h-screen">
         <div
           className="relative flex flex-col items-center justify-center text-center text-white bg-cover bg-center h-[100vmin]"
           style={{ backgroundImage: `url(${bannerImg2})` }}

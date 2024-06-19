@@ -50,7 +50,7 @@ const Banner = () => {
             <a
               data-aos="fade-down"
               data-aos-delay="700"
-              href="https://drive.google.com/u/0/uc?id=13mz9p1VnaC6bJ5bcvtceuyt2HGtJVyqB&export=download"
+              href="https://drive.usercontent.google.com/u/0/uc?id=1D9aZD4VYWkjRXLjGFxhNNLE0I_qSsz-7&export=download"
               className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
             >
               Resume

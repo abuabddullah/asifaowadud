@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Progress = () => {
   return (
     <section id="about" className="text-gray-600 body-font">
@@ -54,7 +56,7 @@ const Progress = () => {
                 </div>
                 <div data-aos="fade-up" data-aos-delay="1250">
                   <h2 className="text-xl font-bold">Website</h2>
-                  <p>www.asifawadud.com</p>
+                  <p><Link target="_blank" to="https://asifaowadud.netlify.app/">asifaowadud.netlify.app</Link></p>
                 </div>
               </div>
             </div>
