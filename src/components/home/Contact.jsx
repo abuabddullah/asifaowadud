@@ -39,32 +39,32 @@ const Contact = () => {
   return (
     <>
       <div id="contact" className="flex flex-col text-center w-full mb-20">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font text-white">
           Contact Me
         </h1>
         <div className="">
-          <span className="inline-block w-40 h-1 rounded-full bg-[#361408]"></span>
-          <span className="inline-block w-3 h-1 ml-1 rounded-full bg-[#361408]"></span>
-          <span className="inline-block w-1 h-1 ml-1 rounded-full bg-[#361408]"></span>
+          <span className="inline-block w-40 h-1 rounded-full bg-yellow-400"></span>
+          <span className="inline-block w-3 h-1 ml-1 rounded-full bg-yellow-400"></span>
+          <span className="inline-block w-1 h-1 ml-1 rounded-full bg-yellow-400"></span>
         </div>
       </div>
 
       <section
         data-aos="zoom-in"
         data-aos-duration="1500"
-        className=" w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800 mb-20"
+        className=" w-full max-w-2xl px-6 py-4 mx-auto bg-[#1a2c41da] hover:bg-[#1A2C41] rounded-md shadow-md dark:bg-gray-800 mb-20"
       >
-        <h2 className="text-3xl font-semibold text-center text-gray-800 dark:text-white">
+        <h2 className="text-3xl font-semibold text-center text-white">
           Get in touch
         </h2>
-        <p className="mt-3 text-center text-gray-600 dark:text-gray-400">
+        <p className="mt-3 text-center text-gray-400">
           Contact with me for any query.
         </p>
 
         <div className="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3">
           <a
             href="#"
-            className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
+            className="flex flex-col items-center px-4 py-3 text-gray-300 transition-colors duration-200 transform rounded-md hover:border-yellow-400 border border-transparent"
           >
             <svg
               className="w-5 h-5"
@@ -84,7 +84,7 @@ const Contact = () => {
 
           <a
             href="#"
-            className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
+            className="flex flex-col items-center px-4 py-3 text-gray-300 transition-colors duration-200 transform rounded-md hover:border-yellow-400 border border-transparent"
           >
             <svg
               className="w-5 h-5"
@@ -100,7 +100,7 @@ const Contact = () => {
 
           <a
             href="#"
-            className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
+            className="flex flex-col items-center px-4 py-3 text-gray-300 transition-colors duration-200 transform rounded-md hover:border-yellow-400 border border-transparent"
           >
             <svg
               className="w-5 h-5"
@@ -131,7 +131,7 @@ const Contact = () => {
             <div className="w-full mx-2">
               <label
                 htmlFor="name"
-                className="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200"
+                className="block mb-2 text-sm font-medium text-gray-400"
               >
                 Name
               </label>
@@ -150,7 +150,7 @@ const Contact = () => {
             <div className="w-full mx-2 mt-4 md:mt-0">
               <label
                 htmlFor="email"
-                className="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200"
+                className="block mb-2 text-sm font-medium text-gray-400"
               >
                 E-mail
               </label>
@@ -170,7 +170,7 @@ const Contact = () => {
           <div className="w-full mt-4">
             <label
               htmlFor="message"
-              className="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200"
+              className="block mb-2 text-sm font-medium text-gray-400"
             >
               Message
             </label>
@@ -187,7 +187,7 @@ const Contact = () => {
 
           <div className="flex justify-center mt-6">
             <button
-              className="px-4 py-2 text-white transition-colors duration-200 transform bg-[#361408] rounded-md hover:bg-[#411707] focus:outline-none focus:bg-[#411707]"
+              className="px-4 py-2 text-white transition-colors duration-200 transform bg-[#1A2C41] rounded-md hover:bg-[#1A2C41] hover:text-yellow-400 hover:border-yellow-400 border border-white focus:outline-none focus:bg-[#1A2C41]"
               type="submit"
             >
               Send Message

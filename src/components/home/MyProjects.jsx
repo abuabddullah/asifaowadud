@@ -1,4 +1,3 @@
-import { BiLinkExternal } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 // make sure the variale project of Portfolio.js and ProjectDetails.js are same
@@ -197,13 +196,13 @@ const MyProjects = () => {
       <section id="projects" className="text-gray-600 body-font ">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-white">
               My Projects
             </h1>
             <div className="">
-              <span className="inline-block w-40 h-1 rounded-full bg-[#361408]"></span>
-              <span className="inline-block w-3 h-1 ml-1 rounded-full bg-[#361408]"></span>
-              <span className="inline-block w-1 h-1 ml-1 rounded-full bg-[#361408]"></span>
+              <span className="inline-block w-40 h-1 rounded-full bg-yellow-400"></span>
+              <span className="inline-block w-3 h-1 ml-1 rounded-full bg-yellow-400"></span>
+              <span className="inline-block w-1 h-1 ml-1 rounded-full bg-yellow-400"></span>
             </div>
           </div>
 
@@ -211,13 +210,11 @@ const MyProjects = () => {
             {projects.map((item, index) => (
               <div
                 key={index}
-                className="flex justify-center items-center my-5 mx-2"
+                className="flex justify-center items-center my-5 mx-2 glass"
+                data-aos="fade-up"
+                data-aos-duration="800"
               >
-                <div
-                  className="card w-80 bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:shadow-2xl"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                >
+                <div className="card w-80 bg-transparent rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:shadow-2xl">
                   <div className="relative">
                     <img
                       src={item.homePage}
@@ -230,7 +227,7 @@ const MyProjects = () => {
                           href={item.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-white mx-2 px-4 py-2 bg-[#411707] hover:bg-[#1F0C06] rounded-full"
+                          className="text-white mx-2 px-4 py-2 bg-[#1A2C41] hover:bg-[#131f2ebd] rounded-full"
                         >
                           Live
                         </a>
@@ -246,7 +243,7 @@ const MyProjects = () => {
                     </div>
                   </div>
                   <div className="p-6 text-center">
-                    <h3 className="text-2xl font-bold text-gray-800 mb-2">
+                    <h3 className="text-2xl font-bold text-gray-200 mb-2">
                       {item.title}
                     </h3>
                     <p className="text-gray-600 mb-4">{item.description}</p>

@@ -8,7 +8,7 @@ const Navbar = () => {
     <section
       // data-aos="fade-down"
       // data-aos-duration="1000"
-      className="sticky top-0  bg-[#361408] text-white z-50"
+      className="sticky top-0  bg-[#1a2c41f3] text-white z-50"
     >
       <div className="container mx-auto">
         <div className="navbar">
@@ -32,7 +32,7 @@ const Navbar = () => {
               </label>
               <ul
                 tabIndex="0"
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-[#361408]"
+                className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-[#1A2C41]"
               >
                 <NavMenues />
               </ul>
@@ -42,7 +42,7 @@ const Navbar = () => {
               to="home#openingBanner"
               className="btn btn-ghost normal-case text-xl font-bold"
             >
-              ASIF
+              a<span className="mx-[-7.5px] text-yellow-400">O</span>wadud
             </HashLink>
           </div>
           <div className="navbar-center hidden lg:flex">

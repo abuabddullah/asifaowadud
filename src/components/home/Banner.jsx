@@ -7,20 +7,20 @@ const Banner = () => {
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center overflow-hidden">
           <h1
-            className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+            className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"
             data-aos="fade-right"
             data-aos-delay="50"
           >
             Welcome to my
             <br className="hidden lg:inline-block" />
-            <span className="text-[#DD5703]"> Portfolio</span>
+            <span className="text-yellow-400"> Portfolio</span>
           </h1>
           <div
             data-aos="fade-right"
             data-aos-delay="200"
             className="mb-8 leading-relaxed"
           >
-            <p>
+            <p className="text-white">
               I am a full-stack web developer and lifelong learner specializing
               in the MERN stack (MongoDB, Express, React, Node), and I am
               proficient in Git. My passion lies in creating visually appealing
@@ -29,13 +29,13 @@ const Banner = () => {
               prestigious "Black Belt" rank.
             </p>
 
-            <p>
+            <p className="text-white">
               I build websites like service providers, E-commerce, Portfolio,
               and Stock tracking. I regularly Learn web development in deeper. I
               am passionate about full-stack web development. I work hard and am
               very much focused on my interest field.
             </p>
-            <p>So I can help to make full stack web sites...</p>
+            <p className="text-white">So I can help to make full stack web sites...</p>
           </div>
           <div className="flex justify-center overflow-hidden">
             <HashLink
@@ -43,7 +43,7 @@ const Banner = () => {
               data-aos="fade-down"
               data-aos-delay="700"
               to="/home#contact"
-              className="inline-flex text-white bg-[#361408] border-0 py-2 px-6 focus:outline-none black rounded text-lg"
+              className="inline-flex text-white bg-[#1a2c41de] border-0 py-2 px-6 focus:outline-none black rounded text-lg hover:text-yellow-400"
             >
               Hire Me
             </HashLink>
@@ -51,7 +51,7 @@ const Banner = () => {
               data-aos="fade-down"
               data-aos-delay="700"
               href="https://drive.usercontent.google.com/u/0/uc?id=1D9aZD4VYWkjRXLjGFxhNNLE0I_qSsz-7&export=download"
-              className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+              className="ml-4 inline-flex text-[#1A2C41] bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
             >
               Resume
             </a>
