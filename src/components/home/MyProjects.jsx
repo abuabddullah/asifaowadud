@@ -7,13 +7,55 @@ const projects = [
     title: "Loyal Auto Parts",
     link: "https://loyalautoparts.netlify.app/",
     gitHub: "https://github.com/abuabddullah/loyalAutoParts-client.git",
-    homePage: "https://i.ibb.co/wymmDFp/12.png",
+    homePage: "https://i.ibb.co/jTrn6Jz/Screenshot-2024-07-07-031334.png",
     homePageDetail1: "this is the Home Page",
     secondPage:
       "https://i.ibb.co/fSYyf5v/screencapture-loyalcars12-web-app-dash-Board-2022-06-10-22-43-36.png",
     secondPageDetail2: "this is the 2nd Page",
     thirdPage:
       "https://i.ibb.co/yScFCBC/screencapture-loyalcars12-web-app-all-Parts-2022-06-10-22-47-51.png",
+    thirdPageDetail3: "this is the 3rd Page",
+  },
+  {
+    _id: "project3",
+    title: "Thirsty Drinks",
+    link: "https://thirstydrinks.netlify.app/",
+    gitHub: "https://github.com/abuabddullah/thirstDyrinksWareHouseManagement",
+    homePage: "https://i.ibb.co/61YdY9v/Screenshot-2024-07-07-031502.png",
+    homePageDetail1: "this is the Home Page",
+    secondPage:
+      "https://i.ibb.co/8jMXxPZ/screencapture-thirstydrinks-11-web-app-blogs-2022-06-10-22-57-14.png",
+    secondPageDetail2: "this is the 2nd Page",
+    thirdPage:
+      "https://i.ibb.co/88f8MZB/screencapture-thirstydrinks-11-web-app-all-Items-2022-06-10-22-57-02.png",
+    thirdPageDetail3: "this is the 3rd Page",
+  },
+  {
+    _id: "project14",
+    title: "Kormo kando",
+    link: "https://kormokando.netlify.app/",
+    gitHub: "https://github.com/abuabddullah/kormoKandoFrontend.git",
+    homePage: "https://i.ibb.co/YpPWQ14/image.png",
+    homePageDetail1: "this is the Home Page",
+    secondPage:
+      "fgdsfgdfgdfgdfdg",
+    secondPageDetail2: "this is the 2nd Page",
+    thirdPage:
+      "dffsfsdfsdfsdf",
+    thirdPageDetail3: "this is the 3rd Page",
+  },
+  {
+    _id: "project15",
+    title: "BooKeVents",
+    link: "https://boo-ke-vents.netlify.app/",
+    gitHub: "https://github.com/abuabddullah/booKeVents-client.git",
+    homePage: "https://i.ibb.co/pR9Lw4B/Screenshot-2024-07-07-031721.png",
+    homePageDetail1: "this is the Home Page",
+    secondPage:
+      "fgdsfgdfgdfgdfdg",
+    secondPageDetail2: "this is the 2nd Page",
+    thirdPage:
+      "dffsfsdfsdfsdf",
     thirdPageDetail3: "this is the 3rd Page",
   },
   /* 
@@ -30,20 +72,6 @@ const projects = [
     secondPageDetail2: "this is the 2nd Page",
     thirdPage:
       "https://i.ibb.co/QfhvTBP/screencapture-finalprojects-doctorsportal-web-app-dashboard-2022-06-10-22-52-54.png",
-    thirdPageDetail3: "this is the 3rd Page",
-  },
-  {
-    _id: "project3",
-    title: "Thirsty Drinks",
-    link: "https://thirstydrinks-11.web.app/",
-    gitHub: "https://github.com/abuabddullah/thirstDyrinksWareHouseManagement",
-    homePage: "https://i.ibb.co/SvWtZmq/11.png",
-    homePageDetail1: "this is the Home Page",
-    secondPage:
-      "https://i.ibb.co/8jMXxPZ/screencapture-thirstydrinks-11-web-app-blogs-2022-06-10-22-57-14.png",
-    secondPageDetail2: "this is the 2nd Page",
-    thirdPage:
-      "https://i.ibb.co/88f8MZB/screencapture-thirstydrinks-11-web-app-all-Items-2022-06-10-22-57-02.png",
     thirdPageDetail3: "this is the 3rd Page",
   },
   {
